@@ -19,8 +19,22 @@ html{
 
 main{
     min-width: 320px;
-    max-width: auto;
+    max-width: 800px;
     margin: auto;
+}
+
+main h2{
+    text-align: center;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    border: 1px dashed var(--cor2);
+    margin: 2px;
+    padding: 2px;
+}
+
+main h2:hover{
+    background-color: #cee0f3;
+    transition-duration: 0.5ms;
 }
 
 header{
@@ -28,10 +42,14 @@ header{
     padding: 1vh;
     font-size: 1em;
     background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor4));
+}
+
+.topo{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    max-width: 800px;
+    margin: auto;
 }
 
 .faixa{
@@ -62,22 +80,53 @@ header{
 }
 
 .caixa{
-    border: 1px solid black;
+    border: 1px solid var(--cor2);
     margin: 5px;
     border-radius:10px;
     padding: 2px;
-    box-sizing: content-box;
+    height: fit-content;
 
 
 }
 
 .item{
-    border: 1px dotted black;
+    border: 1px dashed var(--cor2); 
     margin: 10px;
-    width: 40vw;
+    width: 350px;
     border-radius: 10px;
-    padding: 2px;
-    
+    padding: 5px;
+    text-align: justify;
+    background-color: var(--cor4);
+    padding-bottom: 10px;
+}
 
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div img{
+    height: 15px
+}
+div a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+div a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+    font-size: large;
+}
 
+.alinha_text{
+    padding: 10px;
+}
+
+div h3{
+   padding: 10px;
+}
+
+div p{
+    padding-left: 10px;
+    padding-right: 10px; 
 }
