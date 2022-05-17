@@ -11,17 +11,22 @@
 
 *{
     margin: 0;
-    padding: 0;  
+    padding: 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 html{
     background-color: var(--cor5);
 }
-
+header{
+    font-variant: small-caps;
+}
+header div div{
+    font-size: 1.5em;
+}
 main{
     min-width: 320px;
     max-width: 800px;
     margin: auto;
-    background-: url('https://www.youtube.com/watch?v=ugW2g3XaUdQ&ab_channel=COPYRIGHTFREERECORDINGS');
 }
 
 main h2{
@@ -68,8 +73,6 @@ header{
     background-image: url(/images/perfil\ -\ Copia.jpg);
     background-size: 150px 200px;
     border: 5px solid var(--cor5);
-
-
 }
 .container{
     display: flex;
@@ -87,7 +90,6 @@ header{
     padding: 2px;
     height: fit-content;
 
-
 }
 
 .item{
@@ -99,6 +101,9 @@ header{
     text-align: justify;
     background-color: var(--cor4);
     padding-bottom: 10px;
+    height: fit-content;
+
+
 }
 
 #box1{
@@ -132,3 +137,49 @@ div p{
     padding-right: 10px; 
 }
 
+.demarcado{
+    border: 1px dashed var(--cor5);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+div ul{
+    display: flex;
+
+}
+
+div ul li{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--cor1);
+}
+
+div ul{
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1vh;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3), var(--cor4));
+}
+
+footer h2{
+    text-align: center;
+    background-color: var(--cor5);
+    border-radius: 10px;
+    border: 1px dashed var(--cor2);
+    margin: auto;
+    padding: 2px;
+    max-width: 800px;
+    
+}
+footer h2:hover{
+    background-color: #cee0f3;
+    transition-duration: 0.5ms;
+}
