@@ -132,9 +132,13 @@ div h3{
    padding: 10px;
 }
 
-div p{
+div ul{
     padding-left: 10px;
     padding-right: 10px; 
+    list-style-type: circle;
+}
+div ul li{
+    margin-left: 20px;
 }
 
 .demarcado{
@@ -145,19 +149,19 @@ div p{
     padding-bottom: 5px;
 }
 
-div ul{
+div #portifolio{
     display: flex;
 
 }
 
-div ul li{
+div #portifolio li{
     display: flex;
     width: 200px;
     height: 200px;
     border: 2px solid var(--cor1);
 }
 
-div ul{
+#portifolio{
     padding: 10px;
     justify-content: center;
     gap: 10px;
