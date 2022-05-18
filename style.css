@@ -131,6 +131,9 @@ div a:hover{
 div h3{
    padding: 10px;
 }
+div p{
+    text-indent: 15px;
+ }
 
 div ul{
     padding-left: 10px;
@@ -139,6 +142,10 @@ div ul{
 }
 div ul li{
     margin-left: 20px;
+}
+ul h3{
+    font-size: large;
+    padding: 5px;
 }
 
 .demarcado{
@@ -149,23 +156,26 @@ div ul li{
     padding-bottom: 5px;
 }
 
-div #portifolio{
+div .portifolio{
     display: flex;
 
 }
 
-div #portifolio li{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    border: 2px solid var(--cor1);
-}
-
-#portifolio{
+.portifolio{
     padding: 10px;
     justify-content: center;
     gap: 10px;
+    
 }
+
+div .portifolio li{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border: 2px solid var(--cor1);
+}
+
+
 
 footer {
     text-align: center;
